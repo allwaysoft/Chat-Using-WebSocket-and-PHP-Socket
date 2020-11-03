@@ -59,11 +59,11 @@ button#send-message {
 </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="jquery.min.js"></script>
 <script language="javascript" type="text/javascript">  
 	//create a new WebSocket object.
 	var msgBox = $('#message-box');
-	var wsUri = "ws://localhost:9000/demo/server.php"; 	
+	var wsUri = "ws://192.168.174.130:9999/demo/server.php"; 	
 	websocket = new WebSocket(wsUri); 
 	
 	websocket.onopen = function(ev) { // connection is open 
